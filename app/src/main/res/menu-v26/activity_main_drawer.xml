@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_notes"
+            android:icon="@drawable/ic_menu_camera"
+            android:iconTint="@color/carlas_turqouise"
+            android:title="@string/nav_notes" />
+        <item
+            android:id="@+id/nav_courses"
+            android:icon="@drawable/ic_menu_gallery"
+            android:iconTint="@color/carlas_turqouise"
+            android:title="@string/nav_courses" />
+        <item
+            android:title="@string/tools"
+            android:id="@+id/nav_tools"
+            android:iconTint="@color/carlas_turqouise"
+            android:icon="@drawable/ic_baseline_settings_input_component_24"/>
+    </group>
+
+    <item android:title="@string/nav_communications">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:iconTint="@color/carlas_turqouise"
+                android:icon="@drawable/ic_baseline_share_24"
+                android:title="@string/nav_share"/>
+
+            <item
+                android:id="@+id/nav_send"
+                android:iconTint="@color/carlas_turqouise"
+                android:icon="@drawable/ic_baseline_send_24"
+                android:title="@string/nav_send"/>
+
+
+        </menu>
+
+    </item>
+
+</menu>
